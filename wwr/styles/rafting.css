@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Ramabhadra&display=swap");
+
+:root {
+  --primary-color: #ed6a5e;
+  --secondary-color: #ff8e72;
+  --accent1-color: #4ce0b3;
+  --accent2-color: #377771;
+
+  --heading-font: "Ramabhadra", sans-serif;
+  --paragraph-font: "Oxygen", sans-serif;
+
+  --nav-background-color: #377771;
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #ff8e72;
+  --nav-hover-background-color: #29645e;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+.hero {
+  position: relative;
+}
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hero h1 {
+  position: absolute;
+  top: 0;
+  background-color: rgba(55, 119, 113, 0.7);
+  width: 100%;
+  text-align: center;
+}
+.hero article {
+  position: absolute;
+  top: 160px;
+  background-color: rgba(55, 119, 113, 0.7);
+  width: 84%;
+  text-align: center;
+  color: white;
+}
+.hero article p {
+  padding: 25px;
+}
+.hero article img {
+  float: right;
+  width: 25%;
+  height: auto;
+  margin: 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  margin: 0 4px;
+}
+.socials a img {
+  width: 1.7em;
+  height: auto;
+}
