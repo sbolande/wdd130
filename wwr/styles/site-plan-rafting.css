@@ -21,12 +21,8 @@ body {
   padding: 20px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
@@ -53,8 +49,8 @@ nav a {
   padding: 1rem;
 }
 
-nav a:link,
-nav a:visited {
+/* prettier-ignore */
+nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 
