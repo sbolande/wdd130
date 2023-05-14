@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>HTML Quiz | WDD 130</title>
+    <link rel="stylesheet" href="styles/quiz.css" />
+    <meta
+      name="description"
+      content="Quiz on HTML and CSS for Seth Bolander's WDD 130: Web Fundamentals course work."
+    />
+    <meta name="author" content="Seth Bolander" />
+  </head>
+  <body>
+    <h1>HTML and CSS Quiz!</h1>
+    <main>
+      <form action="">
+        <div class="question">
+          <label for="q1">
+            <span class="q-num">1.</span>What is typically the first line of a
+            HTML file?
+          </label>
+          <br />
+          <input type="text" id="q1" name="q1" />
+        </div>
+        <div class="question">
+          <label for="q2">
+            <span class="q-num">2.</span>List three different HTML tags:
+          </label>
+          <br />
+          <textarea
+            id="q2"
+            name="q2"
+            rows="3"
+            placeholder="&lt;example&gt;"
+          ></textarea>
+        </div>
+        <div class="question">
+          <label for="q3">
+            <span class="q-num">3.</span>Select the one that is <i>not</i> in
+            the CSS Box Model:
+          </label>
+          <br />
+          <select id="q3" name="q3">
+            <option value="" selected disabled>- Select One -</option>
+            <option value="content">Content</option>
+            <option value="margin">Margin</option>
+            <option value="position">Position</option>
+            <option value="padding">Padding</option>
+            <option value="border">Border</option>
+          </select>
+        </div>
+        <div class="question">
+          <label for="q4">
+            <span class="q-num">4.</span>How many id values can a HTML element
+            have?
+          </label>
+          <br />
+          <input
+            type="number"
+            id="q4"
+            name="q4"
+            placeholder="1? 2? 3? ... &infin;?"
+          />
+        </div>
+        <div class="submit-btn-container">
+          <button type="submit" id="submit">Submit Quiz</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

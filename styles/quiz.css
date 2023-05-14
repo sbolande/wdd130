@@ -1,0 +1,68 @@
+:root {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  background-color: #bbb;
+  padding: 2em 3em;
+  border-radius: 10px;
+}
+
+.question {
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.q-num {
+  color: #0051ca;
+  font-size: large;
+  padding-right: 0.4em;
+}
+
+/* prettier-ignore */
+input, textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+select {
+  width: 103.5%;
+  padding: 5px;
+}
+
+option:disabled {
+  color: gray;
+}
+
+.submit-btn-container {
+  text-align: center;
+}
+
+#submit {
+  background-color: #0051ca;
+  color: white;
+  font-size: large;
+  padding: 0.6em 3em;
+  border: none;
+  border-radius: 25px;
+}
+
+#submit:hover {
+  background-color: #003e9b;
+}
+
+#submit:active {
+  background-color: #013481;
+  color: yellow;
+}
