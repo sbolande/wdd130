@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>White Water Adventures | Contact Us</title>
+    <meta name="author" content="Seth Bolander" />
+    <meta
+      name="description"
+      content="The White Water Adventures Contact Us page for WDD 130 White Water Rafting site."
+    />
+    <link rel="stylesheet" href="styles/rafting.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.jpeg" alt="WWR Logo" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact Us!</h1>
+      <div class="contact-body">
+        <section>
+          <h2>Find Us Here!</h2>
+          <div class="find-us">
+            <div class="find-us--contacts">
+              <a href="tel:+5555555555">(555) 555-5555</a>
+              <a href="mailto:whitewateradventures@mailinator.com">
+                whitewateradventures@mailinator.com
+              </a>
+              <p>1082 E Butte Rd, Shelley, ID 83274</p>
+            </div>
+            <div class="find-us--map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12654.809491083803!2d-112.09728676403773!3d43.353427093033275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5354f965e8b08fd9%3A0x223aaa5ccdce638b!2s1082%20E%20Butte%20Rd%2C%20Shelley%2C%20ID%2083274!5e0!3m2!1sen!2sus!4v1684201228224!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Meet Our Employees!</h2>
+          <div class="employee-profiles">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/5065163/pexels-photo-5065163.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                alt="Meet Lucas!"
+              />
+              <figcaption>Meet Lucas, one of our River Guides!</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/4757625/pexels-photo-4757625.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                alt="Meet Luis!"
+              />
+              <figcaption>Meet Luis, one of our River Chefs!</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/16652416/pexels-photo-16652416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Meet Lucky!"
+              />
+              <figcaption>
+                Meet Lucky, our CFO! (Chief Furry Officer)
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <section>
+          <h2>Send Us A Message!</h2>
+          <form action="" class="contact-form">
+            <div class="input-container">
+              <label for="name">Name:</label>
+              <br />
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="input-container">
+              <label for="email">Email:</label>
+              <br />
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="input-container radio-container">
+              <input
+                type="radio"
+                name="type"
+                id="general"
+                value="General Inquiry"
+                checked
+              />
+              <label for="general">General Inquiry</label>
+              <br />
+              <input
+                type="radio"
+                name="type"
+                id="reservation"
+                value="Reservation Question"
+              />
+              <label for="reservation">Reservation Question</label>
+              <br />
+              <input
+                type="radio"
+                name="type"
+                id="suggestion"
+                value="Website Suggestion"
+              />
+              <label for="suggestion">Website Suggestion</label>
+            </div>
+            <div class="input-container">
+              <label for="message">Message:</label><br />
+              <textarea id="message" rows="4" cols="50"></textarea>
+            </div>
+            <div class="input-container check-container">
+              <input type="checkbox" name="subscribe" id="subscribe" />
+              <label for="subscribe">
+                Please subscribe me to the monthly newsletter
+              </label>
+            </div>
+            <button type="submit" id="submit-btn">Submit My Question!</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>©️ 2023 | White Water Adventures | Seth Bolander</p>
+      <nav class="socials">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/fb.webp" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="images/insta.webp" alt="Instagram" />
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+          <img src="images/twitter.webp" alt="Twitter" />
+        </a>
+      </nav>
+      <a id="wireframe" href="images/contact-wireframe.png"
+        >Contact Wireframe</a
+      >
+    </footer>
+  </body>
+</html>
