@@ -288,3 +288,65 @@ footer p {
 #wireframe {
   margin: 0 1em;
 }
+
+/* TRIPS STYLES */
+.trips-body {
+  display: grid;
+  grid-template:
+    "a b b b"
+    "c c c c";
+  gap: 15px;
+}
+
+#trips-section-1 {
+  grid-area: a;
+  text-align: center;
+  max-height: 14em;
+  border: 3px solid var(--accent2-color);
+  border-radius: 10px;
+  margin-top: 3em;
+}
+
+#trips-section-2 {
+  grid-area: b;
+}
+
+#trips-section-3 {
+  grid-area: c;
+  text-align: center;
+}
+
+#upcoming-trips {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--primary-color);
+}
+
+#upcoming-trips thead {
+  background-color: var(--secondary-color);
+}
+
+#upcoming-trips tr {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+#upcoming-trips td {
+  padding: 3px;
+}
+
+.trip-container {
+  display: flex;
+  flex-flow: row;
+  margin: 1em;
+}
+
+.trip-container p {
+  padding: 1em;
+  text-align: left;
+  border-left: 4px solid var(--accent2-color);
+}
+
+.trip-container figure img {
+  max-width: 300px;
+  height: auto;
+}
