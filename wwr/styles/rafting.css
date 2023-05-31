@@ -288,3 +288,127 @@ footer p {
 #wireframe {
   margin: 0 1em;
 }
+
+/* TRIPS STYLES */
+.trips-body {
+  display: grid;
+  grid-template:
+    "a b b b"
+    "c c c c";
+  gap: 15px;
+}
+
+#trips-section-1 {
+  grid-area: a;
+  text-align: center;
+  max-height: 14em;
+  border: 3px solid var(--accent2-color);
+  border-radius: 10px;
+  margin-top: 3em;
+}
+
+#trips-section-2 {
+  grid-area: b;
+}
+
+#trips-section-3 {
+  grid-area: c;
+  text-align: center;
+}
+
+#upcoming-trips {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--primary-color);
+}
+
+#upcoming-trips thead {
+  background-color: var(--secondary-color);
+}
+
+#upcoming-trips tr {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+#upcoming-trips td {
+  padding: 3px;
+}
+
+.trip-container {
+  display: flex;
+  flex-flow: row;
+  margin: 1em;
+}
+
+.trip-container p {
+  padding: 1em;
+  text-align: left;
+  border-left: 4px solid var(--accent2-color);
+}
+
+.trip-container figure img {
+  max-width: 300px;
+  height: auto;
+}
+
+/* HOME PAGE STYLES */
+.banner {
+  position: relative;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  object-position: 0;
+}
+
+.banner h1 {
+  position: absolute;
+  top: 0;
+  background-color: rgba(55, 119, 113, 0.7);
+  width: 100%;
+  text-align: center;
+}
+
+#home-main {
+  display: grid;
+  grid-template:
+    "a b"
+    "c b"
+    "d d";
+  gap: 1em;
+}
+
+.home-section {
+  text-align: center;
+}
+
+.home-section img {
+  max-width: 50%;
+}
+
+#trip-link {
+  grid-area: a;
+}
+
+#mission {
+  grid-area: b;
+}
+
+#services {
+  grid-area: c;
+}
+
+#newsletter-section {
+  grid-area: d;
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  text-align: center;
+  background-color: var(--accent2-color);
+  margin: 15px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
